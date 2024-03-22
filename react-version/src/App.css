@@ -58,8 +58,8 @@ button[type="submit"] {
   font-weight: bold;
   font-size: 1rem;
 /*   background-color: hsl(122, 39%, 50%); */
-    background-color: gold;
-  color: #000;
+  color: #fff;
+  background-color: #000;
   border: none;
   border-radius: 5px;
   cursor: pointer;
