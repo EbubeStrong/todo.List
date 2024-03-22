@@ -56,7 +56,8 @@ button[type="submit"] {
   padding: 10px;
   font-weight: bold;
   font-size: 1rem;
-  background-color: hsl(122, 39%, 50%);
+/*   background-color: hsl(122, 39%, 50%); */
+    background-color: gold;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -70,7 +71,7 @@ button[type="submit"]:hover {
 .card-mainContainer {
   /* background: linear-gradient(100deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%)); */
 /*   background: linear-gradient(100deg, hsl(0, 8%, 92%), hsl(281, 100%, 75%)); */
-    background:  linear-gradient(100deg, black, white);
+    background: gold;
   padding: 20px 50px 30px 50px;
   box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
   min-width: 300px;
