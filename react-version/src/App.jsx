@@ -49,7 +49,7 @@ function App() {
             tasks.map((task, index) => (
               <div className="container" key={index}>
                 <div className="text">
-                  <p className="task-add">{task.input}</p>
+                  <p className="todo-value">{task.input}</p>
                 </div>
                 <div className="btn">
                   <button className="edit-btn" onClick={() => editToDo(task.id)}>edit</button>
