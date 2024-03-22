@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: hsl(0, 0%, 95%); */
+  background: linear-gradient(90deg, rgba(25, 24, 24, 0.295), rgba(128, 0, 128, 0.504));
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.todoContainer {
+  margin-bottom: 20px;
+}
+
+.todoInput {
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 20%, 0.3);
+  border-radius: 10px;
+  width: 250px;
+  margin: 10px;
+}
+
+.todo-value {
+  padding: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 150px;
+  margin: 10px;
+  color: #fff;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: hsl(122, 39%, 50%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: hsl(122, 39%, 40%);
+}
+
+.card-mainContainer {
+  /* background: linear-gradient(100deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%)); */
+  background: linear-gradient(100deg, hsl(0, 8%, 92%), hsl(281, 100%, 75%));
+  padding: 20px 50px 30px 50px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+  min-width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  /* border: 2px solid rgb(128, 38, 0); */
+}
+
+.card-container {
+  /* border: 2px solid green; */
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* display: none; */
+}
+
+.container {
+  /* border: 2px solid purple; */
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 10px;
+  /* display: none; */
+}
+
+.btn {
+  /* border: 2px solid blue; */
+  display: flex;
+  gap: 10px;
+}
+
+.errorBtn {
+  /* border: 2px solid blue; */
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.container button {
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+}
+
+.edit-btn {
+  /* background-color: hsl(120, 100%, 25%); */
+  /* color: #fff; */
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: hsl(120, 100%, 35%);
+  color: #fff;
+}
+
+.delete-btn {
+  /* background-color: hsl(0, 100%, 45%); */
+  /* color: #fff; */
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: hsl(0, 100%, 55%);
+  color: #fff;
+}
+
+.errorDelete-btn {
+  /* background-color: hsl(0, 100%, 45%);
+  color: #fff; */
+  cursor: pointer;
+  padding: 15px;
+  border: none;
+}
+
+.errorDelete-btn:hover {
+  color: #fff;
+  background-color: hsl(0, 100%, 45%);
+}
+
+.errorDisplay {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+}
+
+@media(max-width:650px) {
+  .card-mainContainer {
+    min-width: 200px;
+  }
+}
