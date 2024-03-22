@@ -1,3 +1,8 @@
+html{
+    overflow: scroll;
+    scroll-behaviour: smooth;
+}
+
 html::-webkit-scrollbar{
     width: 0.5rem;
     background: transparent;
