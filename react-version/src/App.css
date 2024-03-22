@@ -159,8 +159,8 @@ button[type="submit"]:hover {
   text-align: center;
 }
 
-@media(max-width:650px) {
+/* @media(max-width:650px) {
   .card-mainContainer {
-    max-width: 200px;
+    max-width: 150px;
   }
-}
+} */
