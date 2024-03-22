@@ -163,7 +163,8 @@ button[type="submit"]:hover {
   .card-mainContainer {
     min-width: 150px;
   }
-  button[type="submit"], .todoInput  {
-  padding: 7px;
+  .todoInput  {
+  width: 200px;
+  margin-left: 40px;
     }
 }
