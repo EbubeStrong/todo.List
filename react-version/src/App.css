@@ -59,7 +59,7 @@ button[type="submit"] {
   font-size: 1rem;
 /*   background-color: hsl(122, 39%, 50%); */
     background-color: gold;
-  color: #fff;
+  color: #000;
   border: none;
   border-radius: 5px;
   cursor: pointer;
