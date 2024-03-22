@@ -161,6 +161,6 @@ button[type="submit"]:hover {
 
 @media(max-width:650px) {
   .card-mainContainer {
-    min-width: 200px;
+    max-width: 200px;
   }
 }
