@@ -163,4 +163,7 @@ button[type="submit"]:hover {
   .card-mainContainer {
     min-width: 150px;
   }
+  button[type="submit"] {
+  padding: 7px;
+    }
 }
