@@ -72,7 +72,7 @@ button[type="submit"] {
 .card-mainContainer {
   /* background: linear-gradient(100deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%)); */
 /*   background: linear-gradient(100deg, hsl(0, 8%, 92%), hsl(281, 100%, 75%)); */
-    background: gold;
+    background: black;
   padding: 20px 50px 30px 50px;
   box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
   min-width: 300px;
