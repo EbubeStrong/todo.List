@@ -37,7 +37,7 @@ function App() {
   }
   return (
     <>
-      <h1>Todo List</h1>
+      <h1>To-do List</h1>
       <form className="todoContainer" onSubmit={submit}>
         <input type="text" className="todoInput" placeholder="Type Your Todo List" onChange={(e) => setInput(e.target.value)} value={input} />
         <button type="submit">Add Task</button>
